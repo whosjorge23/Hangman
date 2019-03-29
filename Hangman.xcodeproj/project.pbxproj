@@ -12,6 +12,8 @@
 		EDDE6D81224E670F006D45F4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EDDE6D7F224E670F006D45F4 /* Main.storyboard */; };
 		EDDE6D83224E670F006D45F4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EDDE6D82224E670F006D45F4 /* Assets.xcassets */; };
 		EDDE6D86224E670F006D45F4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EDDE6D84224E670F006D45F4 /* LaunchScreen.storyboard */; };
+		EDDE6D8F224E68A3006D45F4 /* Hangman.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = EDDE6D8D224E68A3006D45F4 /* Hangman.xcdatamodeld */; };
+		EDDE6D91224E68B6006D45F4 /* wordList.txt in Resources */ = {isa = PBXBuildFile; fileRef = EDDE6D90224E68B6006D45F4 /* wordList.txt */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		EDDE6D82224E670F006D45F4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EDDE6D85224E670F006D45F4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		EDDE6D87224E670F006D45F4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EDDE6D8E224E68A3006D45F4 /* Hangman.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Hangman.xcdatamodel; sourceTree = "<group>"; };
+		EDDE6D90224E68B6006D45F4 /* wordList.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = wordList.txt; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +58,8 @@
 		EDDE6D7A224E670F006D45F4 /* Hangman */ = {
 			isa = PBXGroup;
 			children = (
+				EDDE6D90224E68B6006D45F4 /* wordList.txt */,
+				EDDE6D8D224E68A3006D45F4 /* Hangman.xcdatamodeld */,
 				EDDE6D7B224E670F006D45F4 /* AppDelegate.swift */,
 				EDDE6D7D224E670F006D45F4 /* ViewController.swift */,
 				EDDE6D7F224E670F006D45F4 /* Main.storyboard */,
@@ -124,6 +130,7 @@
 			files = (
 				EDDE6D86224E670F006D45F4 /* LaunchScreen.storyboard in Resources */,
 				EDDE6D83224E670F006D45F4 /* Assets.xcassets in Resources */,
+				EDDE6D91224E68B6006D45F4 /* wordList.txt in Resources */,
 				EDDE6D81224E670F006D45F4 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -137,6 +144,7 @@
 			files = (
 				EDDE6D7E224E670F006D45F4 /* ViewController.swift in Sources */,
 				EDDE6D7C224E670F006D45F4 /* AppDelegate.swift in Sources */,
+				EDDE6D8F224E68A3006D45F4 /* Hangman.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -291,7 +299,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.westcostyle.Hangman;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -308,7 +316,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.westcostyle.Hangman;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
@@ -334,6 +342,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		EDDE6D8D224E68A3006D45F4 /* Hangman.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				EDDE6D8E224E68A3006D45F4 /* Hangman.xcdatamodel */,
+			);
+			currentVersion = EDDE6D8E224E68A3006D45F4 /* Hangman.xcdatamodel */;
+			path = Hangman.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = EDDE6D70224E670F006D45F4 /* Project object */;
 }
